@@ -1,0 +1,190 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    position: relative;
+}
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #212121;
+    z-index: 5;
+}
+nav .container .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+}
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 40px;
+
+}
+header .subheader {
+    margin-top: 50px;
+    min-height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%;
+}
+.subheader .subheader_logo {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.subheader .subheader_oficial {
+    opacity: 0.5;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+.subheader .subheader_call {
+    margin-top: 22px;
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+.subheader .subheader_phone {
+    color: #FFF;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo {
+    min-height: 800px;
+    background: url(..//img/main_bg/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+    margin-top: 67px;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.promo .promo_subheader {
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+.promo .promo_descr {
+    margin-top: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 186px auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 Orgba(0, 0, 0, 0.12); 
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to top, #1EACC7 0%, #4ce2ff 100%);
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.issues {
+    min-height: 850px;
+    padding: 20px 0 65px 0;
+}
+.issues .issues_adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 25px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px; 
+    text-transform: uppercase;
+}
+.issues .issues_header {
+    margin-top: 35px;
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.issues .issues_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    width: 116px;
+    height: 116px;
+    background-color: #1EACC7;
+    border-radius: 100%;
+}
+.issues .issues_descr {
+    width: 370px;
+    text-align: left;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.issues .issues_descr span {
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.issues .issues_item {
+    margin-top: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
